@@ -1,0 +1,144 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: space-between;
+    flex: 1;
+    overflow: hidden;
+}
+
+nav {
+    padding: 40px 114px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row; 
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+}
+
+.input-container {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    padding: 8px 16px;
+    gap: 16px;
+    border: 0.5px solid rgba(96, 96, 96, 0.3);
+    border-radius: 8px;
+}
+
+input {
+    border: none
+}
+
+input:focus{
+    outline: none;
+    border-color: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+.middle {
+    display: flex;
+    flex: 1;
+    background: #FAFAFA;
+    padding: 78px 114px;
+    gap: 32px
+
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 114px;
+    left: 0%;
+    right: 0%;
+    bottom: 0px;
+    background: #F2F2F2;
+}
+
+.social-media{
+    width: 253px;
+    gap: 15px;
+    display: flex;
+}
+
+.my-name{
+    width: 253px;
+}
+
+.my-name-text{
+    color: #292929;
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.card-w-infos{
+    padding: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+    gap: 31px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #292929;
+    margin: 0
+}
+
+.subtitle {
+    width: 270px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #606060;
+    margin: 0
+}
+
+.price {
+    background: rgba(249, 199, 191, 0.5);
+    border-radius: 8px;
+    width: fit-content;
+    padding: 8px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.two-cards {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+}
+
+.card-w-photo {
+    padding: 24px;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+}
