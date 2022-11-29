@@ -40,7 +40,9 @@ input:focus{
 
 .middle {
     display: flex;
-    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background: #FAFAFA;
     padding: 78px 114px;
     gap: 32px
@@ -141,4 +143,55 @@ footer {
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
     border-radius: 16px;
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+    .logo{
+        display:none;
+    }
+    input{
+        display:none;
+    }
+    .middle {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: #FAFAFA;
+        padding: 78px 114px;
+        gap: 32px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 48px 114px;
+        left: 0%;
+        right: 0%;
+        bottom: 0px;
+        background: #F2F2F2;
+    }
+    .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        gap: 15px;
+        width: 135px;
+        height: 25px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .my-name-text {
+        color: #292929;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 17px;
+        text-align: center;
+    }
 }
